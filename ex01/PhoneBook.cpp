@@ -84,7 +84,7 @@ int PhoneBook::search(){
 }
 
 void PhoneBook::view_contact(int index){
-	if (index <= contact_count && index < 8){
+	if (index < contact_count && index < 8){
 		std::cout << "First name: " << contacts[index].get_first_name() << std::endl;
 		std::cout << "Last name: " << contacts[index].get_last_name() << std::endl;
 		std::cout << "Nickname: " << contacts[index].get_nickname() << std::endl;
