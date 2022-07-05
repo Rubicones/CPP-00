@@ -1,6 +1,6 @@
-NAME	=	megaphone
+NAME	=	awesome_phonebook
 
-NAMES	=	megaphone
+NAMES	=	main Contact PhoneBook
 
 OBJ_DIR		=	obj/
 INC_DIR		= 	inc/
